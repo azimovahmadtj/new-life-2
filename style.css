@@ -5,10 +5,86 @@
     width: 100%;
     height: 50px;
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
     justify-content: space-between;
     align-items: center;
+    max-width: 1240px;
+    margin: auto;
 }
 .header img{
     height: 40px;
+}
+.main{
+    max-width: 1240px;
+    margin: auto;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(244, 244, 245, 1);
+    display: flex;
+}
+.citizen{
+    margin-top: 150px;
+    margin-left: 45px;
+    width: 500px;
+    height: 220px;
+    /* background-color: gray; */
+    color: white;
+}
+.citizen h1{
+    font-size: 40px;
+    font-family: 'Manrope',sans-serif;
+}
+.uni{
+    width: 100%;
+    height: 200px;
+    /* background-color: blueviolet; */
+
+}
+.call-in{
+    width: 250px;
+    height: 60px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.podob{
+    /* border-radius: 8px; */
+    margin-left: 15px;
+    width: 50%;
+    height: 25px;
+    background-color: rgba(215, 177, 141, 1);
+}
+.podob p{
+    color:black;
+  font-size: 25x;
+}
+.oficial{
+    display: none;
+}
+.que{
+    display: none;
+}
+@media (max-width:768px){
+    .main{
+        width:  100%;
+        flex-direction: column;
+    }
+    .uni img{
+        display: none;
+    }
+    .podob{
+        display: none;
+    }
+    .oficcial{
+
+        display: block !important;
+    }
+    .que{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        display: block;
+    }
 }
