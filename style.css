@@ -188,7 +188,7 @@
     width: 93%;
     height: 100px;
     /* background-color: aqua; */
-    margin-left: 25px;
+    margin-left: 8px;
 }
 .name{
     width: 100%;
@@ -202,6 +202,7 @@
     margin-top: 7.5px;
 }
 .all{
+    /* margin-left: -10px; */
     width: 100%;
     height: 40px;
     display: flex;
@@ -214,6 +215,60 @@
 }
 hr{
     height: 0.1;;
+}
+.companies{
+    width: 100%;
+    height: 280px;
+    /* background-color: aqua; */
+}
+.work-place{
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+
+}
+.work-1{
+    width: 400px;
+    height: 180px;
+    border:1px solid lightgray;
+    margin-left: 15px;
+    margin-top: 15px;
+   border-radius: 10px;
+}
+.d1{
+    width: 100%;
+}
+.d1 p{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: rgba(132, 140, 154, 1);
+}
+.d2{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 40px;
+    /* background-color: green; */
+    justify-content: space-between;
+
+}
+.d2 img{
+     margin-left: 15px;
+     height: 30px;
+}
+.d2 p{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.more{
+    height: 50px;
+    width: 90%;
+margin-left: 25px;
+margin-top: 25px;
+    border:3px solid rgba(215, 177, 141, 1);
+border-radius: 10px;
 }
 @media (max-width:768px){
     .main{
@@ -263,6 +318,15 @@ hr{
         flex-direction: column;
     }
     .all{
+        width: 90%;
+    }
+    .companies{
+        margin-top: 1200px;
+    }
+    .work-place {
+        flex-direction: column;
+    }
+    .work-1{
         width: 90%;
     }
 }
