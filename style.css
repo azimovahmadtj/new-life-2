@@ -1,5 +1,6 @@
 *{
     margin :0px;
+    font-family: 'Manrope',sans-serif;
 }
 .header{
     width: 100%;
@@ -52,7 +53,7 @@
 .podob{
     /* border-radius: 8px; */
     margin-left: 15px;
-    width: 50%;
+    width: 60%;
     height: 25px;
     background-color: rgba(215, 177, 141, 1);
 }
@@ -66,9 +67,50 @@
 .que{
     display: none;
 }
+.rassmotrim{
+    padding-top: 25px;
+    width: 95%;
+    height: 200px;
+    background-color: rgba(33, 39, 49, 1);
+    /* display: flex;
+    align-items: center; */
+}
+.rassmotrim h1{
+    color: white;
+    margin-left: 15px;
+    font-size: 45px;
+
+}
+.knop{
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 300px;
+    height: 60px;
+    /* background-color: green; */
+}
+.b1{
+    margin-left: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(40, 48, 61, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.doc{
+     /* background-color: aqua; */
+    height: 200px;
+    margin-top: -155px;
+    margin-left: 650px;
+}
+.doc img{
+    height: 218px;
+}
 @media (max-width:768px){
     .main{
-        width:  100%;
+        width:  90%;
         flex-direction: column;
     }
     .uni img{
@@ -86,5 +128,28 @@
         height: 150px;
         background-color: black;
         display: block;
+    }
+    .rassmotrim{
+        width: 100%;
+        margin-top: 230px;
+    height: 400px;       
+    }
+    .porr{
+        flex-direction: column;
+    }
+    .knop{
+        gap: 15px;
+        flex-direction: column-reverse;
+        height: 150px;
+    }
+    .doc img{
+        display: none;
+    }
+    .hedd{
+        font-size: 45px !important;
+        margin-left: -40px !important;
+    }
+    .citizen{
+        width: 95%;
     }
 }
