@@ -68,6 +68,8 @@
     display: none;
 }
 .rassmotrim{
+    max-width: 1240px;
+    margin: auto;
     padding-top: 25px;
     width: 95%;
     height: 200px;
@@ -109,6 +111,8 @@
     height: 218px;
 }
 .vacantion{
+    max-width: 1240px;
+    margin: auto;
     margin-top: 15px;
     width: 100%;
     height: 500px;
@@ -217,6 +221,8 @@ hr{
     height: 0.1;;
 }
 .companies{
+    max-width: 1240px;
+    margin: auto;
     width: 100%;
     height: 280px;
     /* background-color: aqua; */
@@ -271,6 +277,8 @@ margin-top: 25px;
 border-radius: 10px;
 }
 .contact{
+    max-width: 1240px;
+    margin: auto;
     gap:30px;
     color: white;
     align-items: center;
@@ -291,6 +299,8 @@ border-radius: 10px;
     border: none;
 }
 .hot-vcn{
+    max-width: 1240px;
+    margin: auto;
     width: 100%;
     height: 300px;
     background-color: black;
